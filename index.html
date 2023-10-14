@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Números primos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Encontrar números primos</h1>
+  </header>
+  <main>
+    <div id="entradaDados">
+      <h2>Digite dois números inteiros para encontrar os números primos que estão entre os dois valores informados </h2>
+      <form>
+        <div>
+          <label >Inicio: </label>
+          <input type="number" id="inicio" />
+        </div>
+        <div>
+          <label >Fim: </label>
+          <input type="number" id="fim" />
+        </div>
+        <button type="submit" onclick="calcular();return false">Procurar</button>
+      </form>
+      <div>
+        <p id="situacao">Processamento ainda não iniciado</p>
+        <div id="telaResultado">
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Busca de números primos</p>
+  </footer>
+</body>
+<script src="main.js"></script>
+</html>
