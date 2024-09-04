@@ -25,9 +25,12 @@ function calcular() {
     } else{
       situacao.textContent = 'processamento concluído'
 
+      let container
+      let elemento
+      
       for(let i in e.data){
-        let container = document.getElementById("telaResultado")
-        let elemento = document.createElement("span")
+        container = document.getElementById("telaResultado")
+        elemento = document.createElement("span")
         elemento.appendChild(document.createTextNode(e.data[i]))
         container.appendChild(elemento)
       }
