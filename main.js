@@ -12,8 +12,6 @@ function calcular() {
   // enviando menssagem para o worker
   worker.postMessage([inicio.value, fim.value])
 
-  // ..........
-
   // ouvindo, aguardando resposta do worker
   worker.onmessage = function (e) {
     
