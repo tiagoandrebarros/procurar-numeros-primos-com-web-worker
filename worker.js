@@ -18,9 +18,12 @@ onmessage = function (e) {
     inicio = 2
   }
 
+  let i
+  let primo
+  
   while(inicio <= fim){
-    let i = 2
-    let primo = true
+    i = 2
+    primo = true
 
     while(i < inicio){
       if(inicio % i === 0){
