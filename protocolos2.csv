@@ -1,0 +1,4 @@
+id,tempo,nome,frequencias
+10,20,teste1,1;2;3;4;5
+20,50,teste2,2;4;5;1
+30,30,teste3,1.5;2.3;4.2
